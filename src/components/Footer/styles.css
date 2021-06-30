@@ -1,0 +1,35 @@
+.footer{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.redes{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+img{
+    width: 48px;
+    background-color: wheat;
+    border-radius: 5px;
+}
+h3{
+    color:black;
+}
+p{
+    color: wheat;
+    font-size: 12px;
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .footer {
+        margin: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
